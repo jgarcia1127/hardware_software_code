@@ -6,8 +6,8 @@ def repeat_lyrics():
     print_lyrics()
     print_lyrics()
 
-def main()
+def main():
     repeat_lyrics()
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     main()

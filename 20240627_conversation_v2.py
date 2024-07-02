@@ -1,16 +1,14 @@
 def conversation():
-    print("Do you like coding in python? Answer yes or no")
+    print("We want to know if you like programming!")
+    print("What is your name?")
+    name = input()
+    print("Do you like programming " + name + "?")
     answer = input()
-    if answer == "yes":
-        print("That's good - the United States needs more coders!!")
-    else:
-        print("Perhaps you will change your mind")
-    print("Goodbye")
+    print("Great! you said,", answer)
+    print("Let's learn some Python today!!! ")
 
 def main():
-    print("Welcome to my conversation program")
-    conversation()
-    print("Thanks for chatting with me")
+ conversation()
 
 if __name__ == "__main__":
     main()
