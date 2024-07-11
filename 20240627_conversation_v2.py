@@ -4,7 +4,7 @@ def conversation():
     name = input()
     print("Do you like programming " + name + "?")
     answer = input()
-    print("Great! you said,", answer)
+    print("Great! you said,", "\"" + answer + "\"")
     print("Let's learn some Python today!!! ")
 
 def main():
